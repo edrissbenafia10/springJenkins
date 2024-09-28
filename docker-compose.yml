@@ -1,4 +1,4 @@
-version: '3'  # Make sure you specify the version
+version: '2.4'  # Make sure you specify the version
 services:
   spring-boot-app:
     image: docspringbootjenkinstest
