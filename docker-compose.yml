@@ -1,6 +1,6 @@
+version:  # Make sure you specify the version
 services:
-
   spring-boot-app:
     image: docspringbootjenkinstest
     ports:
-      - "0.0.0.0:1177:8080"
+      - "1177:8080"  # No need to specify "0.0.0.0", it is implied
