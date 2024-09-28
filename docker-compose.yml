@@ -1,0 +1,6 @@
+services:
+
+  spring-boot-app:
+    image: docspringbootjenkinstest
+    ports:
+      - "0.0.0.0:8084:8080"
